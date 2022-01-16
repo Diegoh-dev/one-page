@@ -57,11 +57,10 @@ button:hover{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 70px;
+    margin-top: 50px;
+    gap: 5px;
     
 }
-
-
 
 .card{
     width: 300px;
@@ -69,14 +68,37 @@ button:hover{
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-   
+    margin-top: 50px;
    
 }
 
-.cor{
+.cor, .cor1 , .cor2, .cor3, .cor4, .cor5{
+
     width: 300px;
-    height: 150px;
-    background: #FF6363;
+    height: 150px;  
+}
+.cor{
+    background-image: url(./img/orange.png);
+}
+
+.cor1{
+    background-image: url(./img/blue.png);
+}
+
+.cor2{
+    background-image: url(./img/pink.png);
+}
+
+.cor3{
+    background-image: url(./img/green.png);
+}
+
+.cor4{
+    background-image: url(./img/yellow.png);
+}
+
+.cor5{
+    background-image: url(./img/people.png);
 }
 
 .conteudo-card{
