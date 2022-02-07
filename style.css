@@ -178,4 +178,15 @@ textarea{
     height: 300px;
     justify-content: center;
     }
+
+    
+}
+
+
+@media  (max-width: 645px){
+
+    .conteudo-text{
+        margin-top: 50px;
+        margin-left: 25px;
+    }
 }
